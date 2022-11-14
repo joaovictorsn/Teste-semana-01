@@ -1,15 +1,16 @@
 .header{
     margin: 8px;
-    background-color: aquamarine;
-
+    background-image: url(../imagens/spidermanheader.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
 }
 
 
 /*.header-fungo-spider{
     object-fit: cover;
     object-position: 100%;
-    z-index: -2;
-    
+    z-index: -2; 
 }*/
 
 .header-descritivo{
@@ -25,12 +26,7 @@
 
 .header-buttom-nav
 {
-    flex: 90%;
     flex-grow: 1;
-    justify-content:center;
-    align-content: center;
+    justify-content: center;
     padding-top: 15px;
-    
-
-    
 }
