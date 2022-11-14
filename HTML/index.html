@@ -5,26 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super_Hero</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/global.css">
     <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/button.css">
+
 </head>
 <body>
     <header class="header">
         <div class="header-descritivo">
-                <a href="./index.html" class="header-logo">
-                    <img src="../Minha Loja_Website Modelo/imagens atualizadas/logo.png" alt="Logo">
-                </a> 
+            <a href="./index.html" class="header-logo">
+                <img src="../Minha Loja_Website Modelo/imagens atualizadas/logo.png" alt="Logo" class="header-logo-image">
+            </a> 
 
-
-            <nav class="header-buttom-nav">  
-                <button><a href="./index.html"> Home </a> </button>
-                <button><a href="./catalogo.html"> Catálogo </a> </button>
-                <button><a href="./contato.html"> Contato </a> </button>
+            <nav class="header-nav">  
+                <div class="header-button-nav">
+                    <button class="btn btn-header"><a href="./index.html"> Home </a></button>
+                    <button class="btn btn-header"><a href="./catalogo.html"> Catálogo </a></button>
+                    <button class="btn btn-header"><a href="./contato.html"> Contato </a></button>
+                </div>
             </nav>  
+                
+            <!--<div class="header-funko">
+                <img src="../imagens/title_spiderman.png" alt="Funko" class="header-image-funko">
+                </div>--> 
         </div>
     </header>
 
-    <main>
-        <div>
+    <main class="content">
+        <div class="content-quem-somos">
             <h2>QUEM SOMOS</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,7 +43,7 @@
             </p>
         </div>
 
-        <div>
+        <div class="content-catálogo">
             <h2>CATÁLOGO</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

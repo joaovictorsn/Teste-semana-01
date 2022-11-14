@@ -1,32 +1,42 @@
+/*clearfix*/
+.header::after
+{
+    content: '';
+    clear: both;
+    display: table;
+}
+
 .header{
     margin: 8px;
     background-image: url(../imagens/spidermanheader.jpg);
-    height: 500px;
+    height: 650px;
     background-size: cover;
     background-position: center;
 }
 
-
-/*.header-fungo-spider{
-    object-fit: cover;
-    object-position: 100%;
-    z-index: -2; 
-}*/
-
 .header-descritivo{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
+
 .header-logo
 {
-    justify-content: left;
-    flex: 10%;
     padding-top: 15px;
 }
 
-.header-buttom-nav
+.header-nav
 {
-    flex-grow: 1;
-    justify-content: center;
+    flex: 2 1 auto;
     padding-top: 15px;
+    
 }
+
+.header-button-nav 
+{
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+
