@@ -1,8 +1,8 @@
-.btn{
+.btn
+{
     color: #fff;
     background-color: inherit;
     border: 0;
-    
 }
 
 .btn-header
@@ -10,7 +10,16 @@
     margin-right: 50px;
 }
 
-.btn-header:hover {
+.btn-header:hover 
+{
     border-bottom: #fe7467;
-    border-bottom-style: groove;
+    border-bottom-style: solid;
+    
+}
+
+.btn-catalogo{
+    color: #fff;
+    background-color: #fc3836;
+    padding: 10px;
+    border-radius: 10px;    
 }

@@ -7,7 +7,6 @@
 }
 
 .header{
-    margin: 8px;
     background-image: url(../imagens/spidermanheader.jpg);
     height: 650px;
     background-size: cover;
@@ -17,12 +16,16 @@
 .header-descritivo{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .header-logo
 {
     padding-top: 15px;
+}
+
+.header-logo-image{
+    padding-left: 10px;
+    width: 200px;
 }
 
 .header-nav
@@ -37,6 +40,16 @@
     width: fit-content;
     margin-left: 100px;
     margin-right: auto;
+}
+
+.header-funko{
+    margin-top: 200px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.header-image-funko{
+    width: 300px;   
 }
 
 

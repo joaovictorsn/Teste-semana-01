@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content-quem-somos{
+    background-image: url(../imagens/thor_header.jpg);
+    background-size:cover;
+    height: 600px;
+}
+
+.content-quem-somos-titulo{
+    color: #fff;
+    margin-top: 3%;
+    text-align: center;
+    text-decoration: underline 5px #fff;
+}
+
+.content-quem-somos-texto{
+    color: #fff;
+    inline-size: 300px;
+    margin-top: 200px;
+    margin-left: 54%;
+}
+
+.content-catálogo-titulo{
+    text-align: center;
+    text-decoration: underline 5px #fe7467;
+    margin-top: 3%;
+}
+
+.content-catálogo {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.content-catálogo-image{
+    width: 700px;
+}
+
+.content-catálogo-txt{
+    inline-size: 300px;
+    padding-top: 200px;
+}
