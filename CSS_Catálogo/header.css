@@ -1,0 +1,53 @@
+/*clearfix*/
+.header::after
+{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.header{
+    background-image: url(../imagens/captainmarvelheader_Mobile.jpg);
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+  }
+
+.header-descritivo{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo
+{
+    padding-top: 15px;
+}
+
+.header-logo-image{
+    padding-left: 10px;
+    width: 200px;
+}
+
+.header-nav
+{
+    flex: 2 1 auto;
+    padding-top: 15px;
+    
+}
+
+.header-button-nav 
+{
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.header-funko{
+    margin-top: 200px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.header-image-funko{
+    width: 300px;   
+}

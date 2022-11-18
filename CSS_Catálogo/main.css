@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content-catalogo-titulo{
+    color: black;
+    margin-top: 3%;
+    text-align: center;
+    text-decoration: underline 5px #fe7467;
+}
+
+
+
