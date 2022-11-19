@@ -11,5 +11,33 @@
     text-decoration: underline 5px #fe7467;
 }
 
+.content-catalogo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.content-catalogo-lista{
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+
+.image-catalog
+{
+    width: 70%;
+}
+
+.content-catalogo-lista-itens{
+   flex: 1 1 33%;
+   padding-left: 10%;
+   
+}
+
+.txt-produto-catalogo{
+    inline-size: 200px;
+}
+
+
 
 
