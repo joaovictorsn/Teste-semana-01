@@ -8,39 +8,113 @@
     background-image: url(../imagens/thor_header.jpg);
     background-size:cover;
     height: 600px;
+
 }
 
 .content-quem-somos-titulo{
     color: #fff;
     margin-top: 3%;
-    text-align: center;
+    align-self: center;
     text-decoration: underline 5px #fff;
 }
 
 .content-quem-somos-texto{
     color: #fff;
-    inline-size: 300px;
+    inline-size: 300px; 
     margin-top: 200px;
     margin-left: 54%;
 }
 
-.content-catálogo-titulo{
+@media only screen and (max-width:1024px){
+    .content{
+        flex-wrap: nowrap;
+    }
+    .content-quem-somos{
+        background-color:#fc3836;
+        background-image: none;
+        height: 400px;
+        
+    
+    }
+    .content-quem-somos-texto{
+    margin-top: 50px;
+    align-self: center;
+    margin-left: 0px;
+}
+}
+
+.content-cataloge{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.content-catalogo-titulo{
     text-align: center;
     text-decoration: underline 5px #fe7467;
     margin-top: 3%;
 }
 
-.content-catálogo {
+.content-ver-catalogo {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
-.content-catálogo-image{
-    width: 700px;
+.content-catalogo-image-block{
+    flex-grow: 1;
+    flex-basis: auto;
 }
 
-.content-catálogo-txt{
+.content-catalogo-image{
+    width: 500px;
+    
+}
+
+.content-catalogo-txt{
     inline-size: 300px;
-    padding-top: 200px;
+    padding-bottom: 15px;
+    
+}
+
+.content-catalogo-text-block{
+    padding-top: 120px;
+    flex-grow: 1;
+    flex-basis: 1;
+    
+}
+
+@media only screen and (max-width:860px){
+    .content-cataloge{
+        height: 400px;
+    }
+    
+    .content-ver-catalogo {
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        
+    }
+    
+    .content-catalogo-txt{
+        inline-size: 300px;
+        padding-bottom: 15px;
+        
+    }
+    
+    .content-catalogo-text-block{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+
+    .content-catalogo-image-block{
+        align-self: center;
+    }
+    .btn-catalogo-mobile{
+        align-self: center;
+    }
 }
